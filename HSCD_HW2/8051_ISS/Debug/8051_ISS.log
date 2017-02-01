@@ -1,0 +1,65 @@
+﻿已經開始建置於 2014/1/9 下午 03:14:20。
+     1>節點 2 (build 目標) 上的專案 "D:\Hardware-Software Co-Design\HW\SystemC\EX2\8051_ISS\8051_ISS.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\8051_ISS.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 8051_iss.cpp FIR_asic.cpp top.cpp /vmg 
+         8051_iss.cpp
+     1>d:\systemc\vs2010\systemc-2.3.0\src\sysc\datatypes\int\sc_nbutils.h(97): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+         Unknown compiler version - please run the configure tests and report the results
+     1>d:\systemc\vs2010\systemc-2.3.0\src\sysc\packages\boost\utility\enable_if.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\fir_asic.h(45): warning C4244: '=' : 將 'sc_dt::uint_type' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\8051_iss.cpp(32): warning C4305: '引數' : 從 'sc_core::sc_time_unit' 轉換為 'bool'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\8051_iss.cpp(33): warning C4305: '引數' : 從 'sc_core::sc_time_unit' 轉換為 'bool'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\8051_iss.cpp(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\8051_iss.cpp(84): warning C4244: '正在初始化' : 將 'sc_dt::uint_type' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\8051_iss.cpp(85): warning C4244: '正在初始化' : 將 'sc_dt::uint_type' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\8051_iss.cpp(86): warning C4244: '正在初始化' : 將 'sc_dt::uint_type' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\8051_iss.cpp(87): warning C4244: '正在初始化' : 將 'sc_dt::uint_type' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\8051_iss.cpp(140): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 請參閱 'kbhit' 的宣告
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\8051_iss.cpp(142): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 請參閱 'getch' 的宣告
+         正在產生程式碼...
+         正在編譯...
+         top.cpp
+     1>d:\systemc\vs2010\systemc-2.3.0\src\sysc\datatypes\int\sc_nbutils.h(97): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+         Unknown compiler version - please run the configure tests and report the results
+     1>d:\systemc\vs2010\systemc-2.3.0\src\sysc\packages\boost\utility\enable_if.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\fir_asic.h(45): warning C4244: '=' : 將 'sc_dt::uint_type' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\top.cpp(15): warning C4244: '正在初始化' : 將 'sc_dt::uint_type' 轉換為 'unsigned short'，由於型別不同，可能導致資料遺失
+         FIR_asic.cpp
+     1>d:\systemc\vs2010\systemc-2.3.0\src\sysc\datatypes\int\sc_nbutils.h(97): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+         Unknown compiler version - please run the configure tests and report the results
+     1>d:\systemc\vs2010\systemc-2.3.0\src\sysc\packages\boost\utility\enable_if.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\hardware-software co-design\hw\systemc\ex2\8051_iss\fir_asic.h(45): warning C4244: '=' : 將 'sc_dt::uint_type' 轉換為 'int'，由於型別不同，可能導致資料遺失
+         正在產生程式碼...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Hardware-Software Co-Design\HW\SystemC\EX2\8051_ISS\Debug\8051_ISS.exe" /NOLOGO systemc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\8051_ISS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Hardware-Software Co-Design\HW\SystemC\EX2\8051_ISS\Debug\8051_ISS.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Hardware-Software Co-Design\HW\SystemC\EX2\8051_ISS\Debug\8051_ISS.lib" /MACHINE:X86 Debug\8051_iss.obj
+         Debug\core_8051.obj
+         Debug\creg.obj
+         Debug\FIR_asic.obj
+         Debug\keyboard.obj
+         Debug\keyboardcontroller.obj
+         Debug\matrix.obj
+         Debug\op_bytes.obj
+         Debug\periph.obj
+         Debug\sram.obj
+         Debug\top.obj
+         Debug\Xram.obj
+         LINK : 最後的累加連結找不到或未建置 D:\Hardware-Software Co-Design\HW\SystemC\EX2\8051_ISS\Debug\8051_ISS.exe，正在執行完整連結
+         8051_ISS.vcxproj -> D:\Hardware-Software Co-Design\HW\SystemC\EX2\8051_ISS\Debug\8051_ISS.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Hardware-Software Co-Design\HW\SystemC\EX2\8051_ISS\Debug\8051_ISS.exe;#1" /manifest Debug\8051_ISS.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\8051_ISS.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\8051_ISS.lastbuildstate"。
+     1>專案 "D:\Hardware-Software Co-Design\HW\SystemC\EX2\8051_ISS\8051_ISS.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:05.31
